@@ -81,10 +81,10 @@ class Chore(models.Model):
       return self.order_by("task__name")
 
     def upcoming(self):
-      return self.filter(due_on >= date.today()}
+      return self.filter(due_on >= timezone.now())
 
     def past(self):
-      return self.filter(due_on < date.today()}
+      return self.filter(due_on < timezone.now())
 
   objects = QuerySet.as_manager()
 

@@ -1,0 +1,14 @@
+{% extends "chores_base.html" %}
+
+{% block content %}
+
+<h1>{{ chore.child.name }} - {{ chore.task.name }}</h1>
+
+<p>Child: <a href="{% url 'chores:child_detail' chore.child.id %}">{{ chore.child.name }}</a></p>
+<p>Task: <a href="{% url 'chores:task_detail' chore.task.id %}">{{ chore.task.name }}</a></p>
+<p>Due On: {{ chore.due_on }}</p>
+<p>Completed: {{ chore.completed }}</p>
+
+<a href="{% url 'chores:chore_list' %}">Back to List</a>
+
+{% endblock %}

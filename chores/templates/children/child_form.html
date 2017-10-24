@@ -1,0 +1,32 @@
+{% extends "chores_base.html" %}
+
+{% block content %}
+
+<form method="post">{% csrf_token %}
+    {{ form.non_field_errors }}
+    <p>
+        {{ form.first_name.errors }}
+        <label for="{{ form.first_name.id_for_label }}">First Name:</label>
+        {{ form.first_name }}
+    </p>
+
+    <p>
+        {{ form.last_name.errors }}
+        <label for="{{ form.last_name.id_for_label }}">Last Name:</label>
+        {{ form.last_name }}
+    </p>
+
+    <p>
+        {{ form.active.errors }}
+        <label for="{{ form.active.id_for_label }}">Active:</label>
+        {{ form.active }}
+    </p>
+
+    {% if child %}
+        <input type="submit" value="Update Child" />
+    {% else %}
+        <input type="submit" value="Create Child" />
+    {% endif %}
+</form>
+
+{% endblock %}

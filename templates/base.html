@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Chore Tracker</title>
+    <meta name="description" content="">
+
+    {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+
+<div class="container">
+
+    {% include "navbar.html" %}
+
+    <br><hr><br>
+
+    {% include "messages.html" %}
+
+    {% block content %}
+        Empty page
+    {% endblock %}
+
+
+    <br><hr><br>
+
+    {% include "footer.html" %}
+
+</div> <!-- container -->
+
+
+</body>
+</html>
