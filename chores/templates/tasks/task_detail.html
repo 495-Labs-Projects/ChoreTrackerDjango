@@ -1,0 +1,13 @@
+{% extends "chores_base.html" %}
+
+{% block content %}
+
+<h1>{{ task.name }}</h1>
+
+<p>Name: {{ task.name }}</p>
+<p>Points: {{ task.points }}</p>
+<p>Active: {{ task.active }}</p>
+
+<a href="{% url 'chores:task_list' %}">Back to List</a>
+
+{% endblock %}
