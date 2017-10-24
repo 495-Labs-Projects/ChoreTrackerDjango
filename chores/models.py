@@ -1,17 +1,8 @@
 from django.db import models
-from datetime import date
 from django.utils import timezone
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
-
-# Custom Validators
-
-def validate_points(points):
-    if points < 0:
-        raise ValidationError(
-            _('%(value)s is less than 0, needs to be non-negative'),
-            params={'value': points},
-        )
+from functools import reduce
 
 # Child, Task, and Chore Models
 
@@ -43,7 +34,7 @@ class Child(models.Model):
 class Task(models.Model):
   # Task fields
   name = models.CharField(max_length=255)
-  points = models.IntegerField(validators=[validate_points])
+  points = models.PositiveIntegerField()
   active = models.BooleanField(default=True)
 
   # Scopes/Manager
@@ -69,7 +60,7 @@ class Chore(models.Model):
   # Scopes/Manager
   class QuerySet(models.QuerySet):
     def chronological(self):
-      return self.order_by("due_on")
+      return self.order_by("due_on", "task__name")
 
     def done(self):
       return self.filter(completed=True)
@@ -81,10 +72,10 @@ class Chore(models.Model):
       return self.order_by("task__name")
 
     def upcoming(self):
-      return self.filter(due_on >= timezone.now())
+      return self.filter(due_on__gte=timezone.now())
 
     def past(self):
-      return self.filter(due_on < timezone.now())
+      return self.filter(due_on__lt=timezone.now())
 
   objects = QuerySet.as_manager()
 
