@@ -7,11 +7,11 @@ from django.utils.translation import ugettext_lazy as _
 # Custom Validators
 
 def validate_points(points):
-    if points < 0:
-        raise ValidationError(
-            _('%(value)s is less than 0, needs to be non-negative'),
-            params={'value': points},
-        )
+  if points < 0:
+    raise ValidationError(
+        _('%(value)s is less than 0, needs to be non-negative'),
+        params={'value': points},
+    )
 
 # Child, Task, and Chore Models
 
