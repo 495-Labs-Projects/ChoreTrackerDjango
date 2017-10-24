@@ -4,15 +4,6 @@ from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
 from functools import reduce
 
-# Custom Validators
-
-def validate_points(points):
-  if points < 0:
-    raise ValidationError(
-        _('%(value)s is less than 0, needs to be non-negative'),
-        params={'value': points},
-    )
-
 # Child, Task, and Chore Models
 
 class Child(models.Model):
@@ -43,7 +34,7 @@ class Child(models.Model):
 class Task(models.Model):
   # Task fields
   name = models.CharField(max_length=255)
-  points = models.IntegerField(validators=[validate_points])
+  points = models.PositiveIntegerField()
   active = models.BooleanField(default=True)
 
   # Scopes/Manager
