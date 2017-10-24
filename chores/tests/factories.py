@@ -27,5 +27,5 @@ class ChoreFactory(factory.django.DjangoModelFactory):
   child = factory.SubFactory(ChildFactory)
   task = factory.SubFactory(TaskFactory)
 
-  due_on = date.today() + datetime.timedelta(days=1)
+  due_on = timezone.now() + timezone.timedelta(days=1)
   completed = False
