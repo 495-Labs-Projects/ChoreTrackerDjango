@@ -1,8 +1,8 @@
 from django.db import models
-from datetime import date
 from django.utils import timezone
 from django.core.exceptions import ValidationError
 from django.utils.translation import ugettext_lazy as _
+from functools import reduce
 
 # Custom Validators
 
@@ -69,7 +69,7 @@ class Chore(models.Model):
   # Scopes/Manager
   class QuerySet(models.QuerySet):
     def chronological(self):
-      return self.order_by("due_on")
+      return self.order_by("due_on", "task__name")
 
     def done(self):
       return self.filter(completed=True)
@@ -81,10 +81,10 @@ class Chore(models.Model):
       return self.order_by("task__name")
 
     def upcoming(self):
-      return self.filter(due_on >= timezone.now())
+      return self.filter(due_on__gte=timezone.now())
 
     def past(self):
-      return self.filter(due_on < timezone.now())
+      return self.filter(due_on__lt=timezone.now())
 
   objects = QuerySet.as_manager()
 
