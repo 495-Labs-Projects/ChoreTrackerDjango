@@ -1,4 +1,8 @@
 from django.db import models
+from datetime import date
+from django.utils import timezone
+from django.core.exceptions import ValidationError
+from django.utils.translation import ugettext_lazy as _
 
 # Custom Validators
 
@@ -9,7 +13,7 @@ def validate_points(points):
             params={'value': points},
         )
 
-# Models
+# Child, Task, and Chore Models
 
 class Child(models.Model):
   # Child fields
@@ -30,9 +34,11 @@ class Child(models.Model):
   def name(self):
     return self.first_name + " " + self.last_name
 
+  def points_earned(self):
+    return reduce(lambda a,b: a+b, map(lambda chore: chore.task.points, self.chore_set.done()), 0)
+
   def __str__(self):
     return self.first_name + " " + self.last_name
-
 
 class Task(models.Model):
   # Task fields
@@ -70,6 +76,15 @@ class Chore(models.Model):
 
     def pending(self):
       return self.filter(completed=False)
+
+    def by_task(self):
+      return self.order_by("task__name")
+
+    def upcoming(self):
+      return self.filter(due_on >= date.today()}
+
+    def past(self):
+      return self.filter(due_on < date.today()}
 
   objects = QuerySet.as_manager()
 
