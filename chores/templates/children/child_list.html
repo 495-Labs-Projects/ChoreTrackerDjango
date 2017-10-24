@@ -5,7 +5,7 @@
 <h1>Children</h1>
 
 {% if children %}
-    <ul>
+    <ul id="child-list">
         {% for child in children %}
         <li>
             <a href="{% url 'chores:child_detail' child.id %}">{{ child.name }}</a>
