@@ -19,3 +19,6 @@ class ChoreForm(forms.ModelForm):
     class Meta:
         model = Chore
         fields = ["child", "task", "due_on", "completed"] 
+        widgets = {
+            'due_on': forms.SelectDateWidget(),
+        }

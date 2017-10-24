@@ -69,7 +69,8 @@ class ChildUpdate(View):
         else:
             template = 'children/child_form.html'
             context = {
-                'form': form
+                'child': child,
+            	'form': form
             }
             return render(request, template, context)
 
@@ -143,7 +144,8 @@ class TaskUpdate(View):
         else:
             template = 'tasks/task_form.html'
             context = {
-                'form': form
+                'task': task,
+            	'form': form
             }
             return render(request, template, context)
 
@@ -157,5 +159,76 @@ class TaskDelete(View):
 
 # Chore Views
 
+class ChoreList(View):
+    def get(self, request):
+        template = 'chores/chore_list.html'
+        context = {
+            'chores': Chore.objects.chronological()
+        }
+        return render(request, template, context)
+
+class ChoreDetail(View):
+    def get(self, request, pk):
+        template = 'chores/chore_detail.html'
+        chore = get_object_or_404(Chore, pk=pk)
+        context = {
+            'chore': chore
+        }
+        return render(request, template, context)
+
+class ChoreCreate(View):
+    def get(self, request):
+        template = 'chores/chore_form.html'
+        form = ChoreForm()
+        context = {
+            'form': form
+        }
+        return render(request, template, context)
+
+    def post(self, request):
+        form = ChoreForm(request.POST)
+        if form.is_valid():
+            chore = form.save()
+            messages.success(request, 'Sucessfully created chore!')
+            return HttpResponseRedirect(reverse('chores:chore_detail', args=(chore.id,)))
+        else:
+            template = 'chores/chore_form.html'
+            context = {
+                'form': form
+            }
+            return render(request, template, context)
+
+class ChoreUpdate(View):
+    def get(self, request, pk):
+        template = 'chores/chore_form.html'
+        chore = get_object_or_404(Chore, pk=pk)
+        form = ChoreForm(instance=chore)
+        context = {
+            'chore': chore,
+            'form': form
+        }
+        return render(request, template, context)
+
+    def post(self, request, pk):
+        chore = get_object_or_404(Chore, pk=pk)
+        form = ChoreForm(request.POST, instance=chore)
+        if form.is_valid():
+            chore = form.save()
+            messages.success(request, 'Sucessfully updated chore!')
+            return HttpResponseRedirect(reverse('chores:chore_detail', args=(chore.id,)))
+        else:
+            template = 'chores/chore_form.html'
+            context = {
+                'chore': chore,
+            	'form': form
+            }
+            return render(request, template, context)
+
+class ChoreDelete(View):
+    def post(self, request, pk):
+        chore = get_object_or_404(Chore, pk=pk)
+        chore.delete()
+        messages.success(request, 'Sucessfully deleted chore!')
+        return HttpResponseRedirect(reverse('chores:chore_list'))
 
 

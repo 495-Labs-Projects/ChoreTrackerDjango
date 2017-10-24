@@ -1,0 +1,38 @@
+{% extends "chores_base.html" %}
+
+{% block content %}
+
+<form method="post">{% csrf_token %}
+    {{ form.non_field_errors }}
+    <p>
+        {{ form.child.errors }}
+        <label for="{{ form.child.id_for_label }}">Child:</label>
+        {{ form.child }}
+    </p>
+
+    <p>
+        {{ form.task.errors }}
+        <label for="{{ form.task.id_for_label }}">Task:</label>
+        {{ form.task }}
+    </p>
+
+    <p>
+        {{ form.due_on.errors }}
+        <label for="{{ form.due_on.id_for_label }}">Due On:</label>
+        {{ form.due_on }}
+    </p>
+
+    <p>
+        {{ form.completed.errors }}
+        <label for="{{ form.completed.id_for_label }}">Completed:</label>
+        {{ form.completed }}
+    </p>
+
+    {% if chore %}
+        <input type="submit" value="Update Chore" />
+    {% else %}
+        <input type="submit" value="Create Chore" />
+    {% endif %}
+</form>
+
+{% endblock %}

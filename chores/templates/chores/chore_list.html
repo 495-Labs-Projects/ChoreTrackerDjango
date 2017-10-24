@@ -1,0 +1,26 @@
+{% extends "chores_base.html" %}
+
+{% block content %}
+
+<h1>Chores</h1>
+
+{% if chores %}
+    <ul>
+        {% for chore in chores %}
+        <li>
+            <a href="{% url 'chores:chore_detail' chore.id %}">{{ chore.child.name }} - {{ chore.task.name }}</a>
+            <a href="{% url 'chores:chore_edit' chore.id %}">edit</a>
+            <form action="{% url 'chores:chore_delete' chore.id %}" method="post">
+                {% csrf_token %}
+                <input type="submit" value="delete" onclick="return confirm('Are you sure you want to delete this?')">
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No chores are available.</p>
+{% endif %}
+
+<a href="{% url 'chores:chore_new' %}">New</a>
+
+{% endblock %}
