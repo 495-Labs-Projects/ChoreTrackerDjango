@@ -176,7 +176,7 @@ class TaskFunctionalTests(FactoryFunctionalTestCase):
         self.assertEqual(new_task_page.get_heading().text, "New Task")
         new_task_page.fill_out_form("Wash Bathroom", -15, True)
         form_page = new_task_page.submit_bad_form()
-        self.assertIn("-15 is less than 0, needs to be non-negative", form_page.get_errors_list())
+        self.assertIn("Ensure this value is greater than or equal to 0.", form_page.get_errors_list())
 
     def test_edit_task(self):
         tasks = self.task_list_page.get_list_elements()
