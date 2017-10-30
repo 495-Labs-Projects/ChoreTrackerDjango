@@ -2,6 +2,12 @@
 
 {% block content %}
 
+{% if chore %}
+    <h1>Edit Chore</h1>
+{% else %}
+    <h1>New Chore</h1>
+{% endif %}
+
 <form method="post">{% csrf_token %}
     {{ form.non_field_errors }}
     <p>

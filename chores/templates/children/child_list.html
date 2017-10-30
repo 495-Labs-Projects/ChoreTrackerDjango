@@ -10,15 +10,15 @@
         <li>
             <a class="child-detail" href="{% url 'chores:child_detail' child.id %}">{{ child.name }}</a>
             <a class="child-edit" href="{% url 'chores:child_edit' child.id %}">edit</a>
-            <form class="child-delete" action="{% url 'chores:child_delete' child.id %}" method="post">
+            <form action="{% url 'chores:child_delete' child.id %}" method="post">
                 {% csrf_token %}
-                <input type="submit" value="delete" onclick="return confirm('Are you sure you want to delete this?')">
+                <input class="child-delete" type="submit" value="delete" onclick="return confirm('Are you sure you want to delete this?')">
             </form>
         </li>
         {% endfor %}
     </ul>
 {% else %}
-    <p>No children are available.</p>
+    <p id="child-list">No children are available.</p>
 {% endif %}
 
 <a id="child-new" href="{% url 'chores:child_new' %}">New</a>
