@@ -1,7 +1,6 @@
 import factory
 from chores.models import *
 from django.utils import timezone
-from datetime import date
 
 class ChildFactory(factory.django.DjangoModelFactory):
   class Meta:

@@ -21,8 +21,8 @@ class Populate():
 
     self.ac1 = ChoreFactory.create(child=self.alex, task=self.dishes)
     self.mc1 = ChoreFactory.create(child=self.mark, task=self.sweep)
-    self.ac2 = ChoreFactory.create(child=self.alex, task=self.sweep, due_on=date.today() + datetime.timedelta(days=2))
-    self.mc2 = ChoreFactory.create(child=self.mark, task=self.dishes, due_on=date.today() + datetime.timedelta(days=2))
-    self.ac3 = ChoreFactory.create(child=self.alex, task=self.shovel, due_on=date.today() - datetime.timedelta(days=2), completed=True)
-    self.ac4 = ChoreFactory.create(child=self.alex, task=self.dishes, due_on=date.today(), completed=True)
-    self.mc3 = ChoreFactory.create(child=self.mark, task=self.sweep, due_on=date.today(), completed=True)
+    self.ac2 = ChoreFactory.create(child=self.alex, task=self.sweep, due_on=timezone.now() + timezone.timedelta(days=2))
+    self.mc2 = ChoreFactory.create(child=self.mark, task=self.dishes, due_on=timezone.now() + timezone.timedelta(days=2))
+    self.ac3 = ChoreFactory.create(child=self.alex, task=self.shovel, due_on=timezone.now() - timezone.timedelta(days=2), completed=True)
+    self.ac4 = ChoreFactory.create(child=self.alex, task=self.dishes, due_on=timezone.now(), completed=True)
+    self.mc3 = ChoreFactory.create(child=self.mark, task=self.sweep, due_on=timezone.now(), completed=True)
