@@ -2,11 +2,13 @@
 
 {% block content %}
 
-<h1>{{ task.name }}</h1>
+<h1 id="task-name">{{ task.name }}</h1>
 
-<p>Name: {{ task.name }}</p>
-<p>Points: {{ task.points }}</p>
-<p>Active: {{ task.active }}</p>
+<div id="task-details">
+	<p>Name: {{ task.name }}</p>
+	<p>Points: {{ task.points }}</p>
+	<p>Active: {{ task.active }}</p>
+</div>
 
 <a href="{% url 'chores:task_list' %}">Back to List</a>
 
