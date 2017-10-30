@@ -34,6 +34,7 @@ class TediousChildFunctionalTests(FactoryFunctionalTestCase):
         self.factories.populate_children()
 
     def tearDown(self):
+        self.driver.refresh()
         self.driver.quit()
     
     def test_child_list(self):
@@ -193,8 +194,4 @@ class TaskFunctionalTests(FactoryFunctionalTestCase):
         task_list_page = self.task_list_page.delete_task(tasks[0])
         new_tasks = task_list_page.get_list_elements()
         self.assertEqual(len(new_tasks), tasks_length - 1)
-
-
-
-
 
