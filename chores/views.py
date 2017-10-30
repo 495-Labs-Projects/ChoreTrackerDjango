@@ -39,7 +39,7 @@ class ChildCreate(View):
         form = ChildForm(request.POST)
         if form.is_valid():
             child = form.save()
-            messages.success(request, 'Sucessfully created %s!' % child.name())
+            messages.success(request, 'Successfully created %s!' % child.name())
             return HttpResponseRedirect(reverse('chores:child_detail', args=(child.id,)))
         else:
             template = 'children/child_form.html'
@@ -64,7 +64,7 @@ class ChildUpdate(View):
         form = ChildForm(request.POST, instance=child)
         if form.is_valid():
             child = form.save()
-            messages.success(request, 'Sucessfully updated %s!' % child.name())
+            messages.success(request, 'Successfully updated %s!' % child.name())
             return HttpResponseRedirect(reverse('chores:child_detail', args=(child.id,)))
         else:
             template = 'children/child_form.html'
@@ -78,7 +78,7 @@ class ChildDelete(View):
     def post(self, request, pk):
         child = get_object_or_404(Child, pk=pk)
         child.delete()
-        messages.success(request, 'Sucessfully deleted %s!' % child.name())
+        messages.success(request, 'Successfully deleted %s!' % child.name())
         return HttpResponseRedirect(reverse('chores:child_list'))
 
 
@@ -114,7 +114,7 @@ class TaskCreate(View):
         form = TaskForm(request.POST)
         if form.is_valid():
             task = form.save()
-            messages.success(request, 'Sucessfully created %s!' % task.name)
+            messages.success(request, 'Successfully created %s!' % task.name)
             return HttpResponseRedirect(reverse('chores:task_detail', args=(task.id,)))
         else:
             template = 'tasks/task_form.html'
@@ -139,7 +139,7 @@ class TaskUpdate(View):
         form = TaskForm(request.POST, instance=task)
         if form.is_valid():
             task = form.save()
-            messages.success(request, 'Sucessfully updated %s!' % task.name)
+            messages.success(request, 'Successfully updated %s!' % task.name)
             return HttpResponseRedirect(reverse('chores:task_detail', args=(task.id,)))
         else:
             template = 'tasks/task_form.html'
@@ -153,7 +153,7 @@ class TaskDelete(View):
     def post(self, request, pk):
         task = get_object_or_404(Task, pk=pk)
         task.delete()
-        messages.success(request, 'Sucessfully deleted %s!' % task.name)
+        messages.success(request, 'Successfully deleted %s!' % task.name)
         return HttpResponseRedirect(reverse('chores:task_list'))
 
 
@@ -189,7 +189,7 @@ class ChoreCreate(View):
         form = ChoreForm(request.POST)
         if form.is_valid():
             chore = form.save()
-            messages.success(request, 'Sucessfully created chore!')
+            messages.success(request, 'Successfully created chore!')
             return HttpResponseRedirect(reverse('chores:chore_detail', args=(chore.id,)))
         else:
             template = 'chores/chore_form.html'
@@ -214,7 +214,7 @@ class ChoreUpdate(View):
         form = ChoreForm(request.POST, instance=chore)
         if form.is_valid():
             chore = form.save()
-            messages.success(request, 'Sucessfully updated chore!')
+            messages.success(request, 'Successfully updated chore!')
             return HttpResponseRedirect(reverse('chores:chore_detail', args=(chore.id,)))
         else:
             template = 'chores/chore_form.html'
@@ -228,7 +228,7 @@ class ChoreDelete(View):
     def post(self, request, pk):
         chore = get_object_or_404(Chore, pk=pk)
         chore.delete()
-        messages.success(request, 'Sucessfully deleted chore!')
+        messages.success(request, 'Successfully deleted chore!')
         return HttpResponseRedirect(reverse('chores:chore_list'))
 
 

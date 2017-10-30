@@ -4,10 +4,12 @@
 
 <h1 id="child-name">{{ child.name }}</h1>
 
-<p>First Name: {{ child.first_name }}</p>
-<p>Last Name: {{ child.last_name }}</p>
-<p>Active: {{ child.active }}</p>
+<div id="child-details">
+	<p>First Name: {{ child.first_name }}</p>
+	<p>Last Name: {{ child.last_name }}</p>
+	<p>Active: {{ child.active }}</p>
+</div>
 
-<a href="{% url 'chores:child_list' %}">Back to List</a>
+<a id="back-to-list" href="{% url 'chores:child_list' %}">Back to List</a>
 
 {% endblock %}
