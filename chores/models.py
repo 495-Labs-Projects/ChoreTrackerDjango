@@ -22,12 +22,14 @@ class Child(models.Model):
 
   objects = QuerySet.as_manager()
 
+  # Methods
   def name(self):
     return self.first_name + " " + self.last_name
 
   def points_earned(self):
     return reduce(lambda a,b: a+b, map(lambda chore: chore.task.points, self.chore_set.done()), 0)
 
+  # For debugging
   def __str__(self):
     return self.first_name + " " + self.last_name
 
@@ -47,6 +49,7 @@ class Task(models.Model):
 
   objects = QuerySet.as_manager()
 
+  # For debugging
   def __str__(self):
     return self.name
 
@@ -79,9 +82,11 @@ class Chore(models.Model):
 
   objects = QuerySet.as_manager()
 
+  # Methods
   def status(self):
     return "Completed" if self.completed else "Pending"
 
+  # For debugging
   def __str__(self):
-    return self.name
+    return self.task.name
 
