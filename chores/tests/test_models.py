@@ -16,10 +16,10 @@ class ChildTests(FactoryTestCase):
 
 	def test_validations(self):
 		bad_child1 = ChildFactory.create(first_name="")
-		self.assertRaises(ValidationError, bad_child1.full_clean())
+		self.assertRaises(ValidationError, bad_child1.full_clean)
 
 		bad_child2 = ChildFactory.create(last_name="")
-		self.assertRaises(ValidationError, bad_child2.full_clean())
+		self.assertRaises(ValidationError, bad_child2.full_clean)
 
 	def test_name(self):
 		self.assertEqual("Alex Heimann", self.factories.alex.name())
@@ -44,7 +44,7 @@ class TaskTests(FactoryTestCase):
 
 	def test_validate_name(self):
 		bad_task1 = TaskFactory.create(name="")
-		self.assertRaises(ValidationError, bad_task1.full_clean())
+		self.assertRaises(ValidationError, bad_task1.full_clean)
 
 	def test_alphabetical(self):
 		self.assertEqual(list(map(lambda task: task.name, Task.objects.alphabetical())), ["Mow grass", "Shovel driveway", "Stack wood", "Sweep floor", "Wash dishes"])

@@ -10,7 +10,7 @@ from chores.tests.test_models import FactoryTestCase
 class ChildViewTests(FactoryTestCase):
 
     def setUp(self):
-        self.populate_children()
+        self.factories.populate_children()
 
     def test_list_view_with_no_children(self):
         Child.objects.all().delete()
@@ -134,7 +134,7 @@ class TaskViewTests(FactoryTestCase):
         response = self.client.post(reverse('chores:task_edit', args=(self.factories.dishes.id,)),
             {'name': 'Pet the cat', 'points': -1, 'active': True})
         self.factories.dishes.refresh_from_db()
-        self.assertEqual(self.factories.a1.name, 'Wash dishes')
+        self.assertEqual(self.factories.dishes.name, 'Wash dishes')
         self.assertEqual(response.status_code, 200)
         self.assertIsInstance(response.context['form'], TaskForm)
 
@@ -162,7 +162,7 @@ class ChoreViewTests(FactoryTestCase):
         response = self.client.get(reverse('chores:chore_list'))
         self.assertEqual(response.status_code, 200)
         self.assertQuerysetEqual(list(response.context['chores']), 
-            [repr(self.factories.ac3),repr(self.factories.mc1),repr(self.factories.ac2),repr(self.factories.mc3),repr(self.factories.ac1),repr(self.factories.mc2),repr(self.factories.ac4)])
+            [repr(self.factories.ac3),repr(self.factories.mc3),repr(self.factories.ac4),repr(self.factories.mc1),repr(self.factories.ac1),repr(self.factories.ac2),repr(self.factories.mc2)])
 
     def test_new_chore_view(self):
         response = self.client.get(reverse('chores:chore_new'))
@@ -173,7 +173,7 @@ class ChoreViewTests(FactoryTestCase):
     def test_create_chore_view(self):
         num_chores = Chore.objects.count()
         response = self.client.post(reverse('chores:chore_new'),
-            {'child': self.factories.alex.id, 'task': self.factories.shovel.id, 'due_on': timezone.now() + timezone.timedelta(days=3), 'completed': False}) 
+            {'child': self.factories.alex.id, 'task': self.factories.shovel.id, 'due_on': timezone.now().date() + timezone.timedelta(days=3), 'completed': False}) 
         self.assertEqual(Chore.objects.count(), num_chores + 1)
         self.assertRedirects(response, reverse('chores:chore_detail', args=(num_chores+1,)))
 
@@ -193,16 +193,16 @@ class ChoreViewTests(FactoryTestCase):
 
     def test_update_chore_view(self):
         response = self.client.post(reverse('chores:chore_edit', args=(self.factories.ac1.id,)),
-            {'child': self.factories.alex.id, 'task': self.factories.dishes.id, 'due_on': timezone.now() + timezone.timedelta(days=3), 'completed': False})
+            {'child': self.factories.alex.id, 'task': self.factories.dishes.id, 'due_on': timezone.now().date() + timezone.timedelta(days=3), 'completed': False})
         self.factories.ac1.refresh_from_db()
-        self.assertEqual(self.factories.ac1.due_on, timezone.now() + timezone.timedelta(days=3))
+        self.assertEqual(self.factories.ac1.due_on, timezone.now().date() + timezone.timedelta(days=3))
         self.assertRedirects(response, reverse('chores:chore_detail', args=(self.factories.ac1.id,)))
 
     def test_update_bad_chore_view(self):
         response = self.client.post(reverse('chores:chore_edit', args=(self.factories.ac1.id,)),
             {'child': self.factories.alex.id, 'task': 500, 'due_on': timezone.now() + timezone.timedelta(days=3), 'completed': False})
         self.factories.ac1.refresh_from_db()
-        self.assertEqual(self.factories.ac1.due_on, timezone.now() + timezone.timedelta(days=1))
+        self.assertEqual(self.factories.ac1.due_on, timezone.now().date() + timezone.timedelta(days=1))
         self.assertEqual(response.status_code, 200)
         self.assertIsInstance(response.context['form'], ChoreForm)
 
