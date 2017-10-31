@@ -38,38 +38,45 @@ class TediousChildFunctionalTests(FactoryFunctionalTestCase):
         self.driver.quit()
     
     def test_child_list(self):
-        driver = self.driver
-        self.driver.get(self.get_full_url(reverse("chores:child_list")))
+        # Go to the Children List page
+        url = self.get_full_url(reverse("chores:child_list"))
+        self.driver.get(url)
 
-        self.assertIn("Chore Tracker", driver.title)
-        heading = driver.find_element_by_css_selector("h1")
+        # Check that the page's title is right
+        self.assertIn("Chore Tracker", self.driver.title)
+
+        # Check that the page heading is right
+        heading = self.driver.find_element_by_tag_name("h1")
         self.assertIn("Children", heading.text)
 
-        children = driver.find_elements_by_css_selector("#child-list li")
+        # Check that the number of children listed is equal to the number of children in the database
+        children = self.driver.find_elements_by_css_selector("#child-list li")
         self.assertEqual(len(children), Child.objects.count()) 
 
     def test_child_detail(self):
-        driver = self.driver
-        self.driver.get(self.get_full_url(reverse("chores:child_detail", args=(self.factories.alex.id,))))
+        # Go to Alex's detail page
+        url = self.get_full_url(reverse("chores:child_detail", args=(self.factories.alex.id,)))
+        self.driver.get(url)
 
-        name = driver.find_element_by_id("child-name")
+        # Check that the child's name is correct
+        name = self.driver.find_element_by_id("child-name")
         self.assertEqual(self.factories.alex.name(), name.text)
 
     def test_create_new_child(self):
-        driver = self.driver
-        self.driver.get(self.get_full_url(reverse("chores:child_new")))
+        url = self.get_full_url(reverse("chores:child_new"))
+        self.driver.get(url)
 
-        first_name_input = driver.find_element_by_id("id_first_name")
+        first_name_input = self.driver.find_element_by_id("id_first_name")
         first_name_input.send_keys("John")
 
-        last_name_input = driver.find_element_by_id("id_last_name")
+        last_name_input = self.driver.find_element_by_id("id_last_name")
         last_name_input.send_keys("Smith")
 
         first_name_input.submit()
 
         self.wait_page_load((By.ID, "child-name"))
 
-        name = driver.find_element_by_id("child-name")
+        name = self.driver.find_element_by_id("child-name")
         self.assertEqual("John Smith", name.text) 
 
 
