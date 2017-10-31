@@ -29,7 +29,7 @@ class FactoryFunctionalTestCase(StaticLiveServerTestCase):
 # Tedious Way
 class TediousChildFunctionalTests(FactoryFunctionalTestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver")
         self.driver.implicitly_wait(3)
         self.factories.populate_children()
 
