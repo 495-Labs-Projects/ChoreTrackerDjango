@@ -8,7 +8,7 @@
     <ul id="chore-list">
         {% for chore in chores %}
         <li>
-            <a class="chore-detail" href="{% url 'chores:chore_detail' chore.id %}">{{ chore.chore.name }} - {{ chore.task.name }}</a>
+            <a class="chore-detail" href="{% url 'chores:chore_detail' chore.id %}">{{ chore.child.name }} - {{ chore.task.name }}</a>
             <a class="chore-edit" href="{% url 'chores:chore_edit' chore.id %}">edit</a>
             <form action="{% url 'chores:chore_delete' chore.id %}" method="post">
                 {% csrf_token %}

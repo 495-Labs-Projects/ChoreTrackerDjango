@@ -4,48 +4,13 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import chores.tests.pages.base_pages as base
 
-class ChildListPage(base.ListPage):
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.page_element = (By.ID, "child-list")
-        self.list = (By.ID, "child-list")
-        self.new = (By.ID, "child-new")
-        self.detail = (By.CLASS_NAME, "child-detail")
-        self.edit = (By.CLASS_NAME, "child-edit")
-        self.delete = (By.CLASS_NAME, "child-delete")
-
-    def goto_child_detail(self, list_item):
-        self.get_item_detail(list_item).click()
-        detail_page = ChildDetailPage(self.driver)
-        detail_page.check_page_element()
-        return detail_page
-
-    def goto_child_edit(self, list_item):
-        self.get_item_edit(list_item).click()
-        edit_page = ChildFormPage(self.driver)
-        edit_page.check_page_element()
-        return edit_page
-
-    def delete_child(self, list_item):
-        self.get_item_delete(list_item).click()
-        alert = self.driver.switch_to_alert()
-        alert.accept()
-        list_page = ChildListPage(self.driver)
-        list_page.check_page_element()
-        return list_page
-
-    def goto_child_new(self):
-        self.get_new().click()
-        new_page = ChildFormPage(self.driver)
-        new_page.check_page_element()
-        return new_page
-
 class ChildDetailPage(base.DetailPage):
     def __init__(self, driver):
         super().__init__(driver)
         self.page_element = (By.ID, "child-name")
         self.heading = (By.ID, "child-name")
         self.details = (By.ID, "child-details")
+
 
 class ChildFormPage(base.FormPage):
     def __init__(self, driver):
@@ -94,8 +59,26 @@ class ChildFormPage(base.FormPage):
         if(active):
             self.set_active_input(active)
 
-    def submit_form(self):
-        self.get_form().submit()
-        detail_page = ChildDetailPage(self.driver)
-        detail_page.check_page_element()
-        return detail_page
+
+class ChildListPage(base.ListPage):
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.page_element = (By.ID, "child-list")
+        self.list = (By.ID, "child-list")
+        self.new = (By.ID, "child-new")
+        self.detail = (By.CLASS_NAME, "child-detail")
+        self.edit = (By.CLASS_NAME, "child-edit")
+        self.delete = (By.CLASS_NAME, "child-delete")
+
+    def goto_child_detail(self, list_item, page_class=ChildDetailPage):
+        return self.goto_page(self.get_item_detail(list_item), page_class)
+
+    def goto_child_edit(self, list_item, page_class=ChildFormPage):
+        return self.goto_page(self.get_item_edit(list_item), page_class)
+
+    def delete_child(self, list_item):
+        return self.delete_list_item(list_item, ChildListPage)
+
+    def goto_child_new(self, page_class=ChildFormPage):
+        return self.goto_page(self.get_new(), page_class)
+

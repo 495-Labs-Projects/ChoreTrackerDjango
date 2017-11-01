@@ -37,6 +37,7 @@ class ChildTests(FactoryTestCase):
 	def test_active(self):
 		self.assertEqual(list(map(lambda child: child.first_name, Child.objects.active().alphabetical())), ["Alex", "Mark"])
 
+
 class TaskTests(FactoryTestCase):
 
 	def setUp(self):
@@ -51,6 +52,7 @@ class TaskTests(FactoryTestCase):
 
 	def test_active(self):
 		self.assertEqual(list(map(lambda task: task.name, Task.objects.active().alphabetical())), ["Mow grass", "Shovel driveway", "Sweep floor", "Wash dishes"])
+
 
 class ChoreTests(FactoryTestCase):
 
