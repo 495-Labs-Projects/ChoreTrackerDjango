@@ -29,6 +29,12 @@ class BasePage(object):
                 EC.presence_of_element_located(element)
             )
 
+    def goto_page(self, click_element, page_class):
+        click_element.click()
+        page = page_class(self.driver)
+        page.check_page_element()
+        return page
+
 # The base ChoreTracker Page class that represents a basic page in the ChoreTracker App.
 # The following are its fields (not including the inheritted fields)
 #   page_element => just for specificity, this is defined by the navbar since all ChoreTracker pages should have the navbar
@@ -58,23 +64,14 @@ class ChoreTrackerPage(BasePage):
     def get_chores_nav(self):
         return self.driver.find_element(*self.chores_nav)
 
-    def goto_children_nav(self):
-        self.get_children_nav().click()
-        child_list_page = ChoreTrackerPage(self.driver)
-        child_list_page.check_page_element((By.ID, "child-list"))
-        return child_list_page
+    def goto_children_nav(self, page_class=BasePage):
+        return self.goto_page(self.get_children_nav(), page_class)
 
-    def goto_tasks_nav(self):
-        self.get_tasks_nav().click()
-        task_list_page = ChoreTrackerPage(self.driver)
-        task_list_page.check_page_element((By.ID, "task-list"))
-        return task_list_page
+    def goto_tasks_nav(self, page_class=BasePage):
+        return self.goto_page(self.get_tasks_nav(), page_class)
 
-    def goto_chores_nav(self):
-        self.get_chores_nav().click()
-        chore_list_page = ChoreTrackerPage(self.driver)
-        chore_list_page.check_page_element((By.ID, "chore-list"))
-        return chore_list_page
+    def goto_chores_nav(self, page_class=BasePage):
+        return self.goto_page(self.get_chores_nav(), page_class)
 
     def get_footer(self):
         return self.driver.find_element(*self.footer_element)
@@ -121,6 +118,14 @@ class ListPage(ChoreTrackerPage):
     def get_new(self):
         return self.driver.find_element(*self.new)
 
+    def delete_list_item(self, list_item, page_class):
+        self.get_item_delete(list_item).click()
+        alert = self.driver.switch_to_alert()
+        alert.accept()
+        list_page = page_class(self.driver)
+        list_page.check_page_element()
+        return list_page
+
 # The base Detail Page class that represents 
 class DetailPage(ChoreTrackerPage):
     def __init__(self, driver):
@@ -161,3 +166,9 @@ class FormPage(ChoreTrackerPage):
             error_messages = error.find_elements(By.TAG_NAME, "li")
             errors_list.extend([msg.text for msg in error_messages])
         return errors_list
+
+    def submit_form(self, page_class=DetailPage):
+        self.get_form().submit()
+        detail_page = page_class(self.driver)
+        detail_page.check_page_element()
+        return detail_page

@@ -3647,3 +3647,1159 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1509461378924	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:64660/chores/children/10"
 1509461378926	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:64660/chores/children/10"
 1509461378936	Marionette	INFO	New connections will no longer be accepted
+1509557540032	geckodriver	INFO	Listening on 127.0.0.1:57982
+1509557542099	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509557542289	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509557542470	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509557544189	Marionette	INFO	Listening on port 57990
+1509557544200	Marionette	INFO	Listening on port 57990
+1509557545225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509557546462	Marionette	INFO	New connections will no longer be accepted
+1509557572594	geckodriver	INFO	Listening on 127.0.0.1:58075
+1509557574634	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509557574835	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509557575025	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509557576684	Marionette	INFO	Listening on port 58083
+1509557576699	Marionette	INFO	Listening on port 58083
+1509557577757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509557579061	Marionette	INFO	New connections will no longer be accepted
+1509560802406	geckodriver	INFO	Listening on 127.0.0.1:62565
+1509560804456	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509560804678	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509560804973	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509560806517	Marionette	INFO	Listening on port 62573
+1509560806537	Marionette	INFO	Listening on port 62573
+1509560807592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1359: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource://gre/modules/FileUtils.jsm, line 70: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource:///modules/WindowsJumpLists.jsm, line 394: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1509560868414	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509560868620	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509560870085	Marionette	INFO	Listening on port 63216
+1509560870098	Marionette	INFO	Listening on port 63216
+1509560870233	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509560871053	Marionette	INFO	New connections will no longer be accepted
+1509560871556	geckodriver	INFO	Listening on 127.0.0.1:63252
+1509560873636	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509560873817	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509560874000	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509560875609	Marionette	INFO	Listening on port 63260
+1509560875618	Marionette	INFO	Listening on port 63260
+1509560875664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509560876449	Marionette	INFO	New connections will no longer be accepted
+1509560876735	geckodriver	INFO	Listening on 127.0.0.1:63292
+1509560878804	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509560878980	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509560879163	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509560880681	Marionette	INFO	Listening on port 63306
+1509560880696	Marionette	INFO	Listening on port 63306
+1509560880827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509560881604	Marionette	INFO	New connections will no longer be accepted
+1509560881830	geckodriver	INFO	Listening on 127.0.0.1:63339
+1509560883905	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509560884083	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509560884269	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509560885780	Marionette	INFO	Listening on port 63347
+1509560885794	Marionette	INFO	Listening on port 63347
+1509560885935	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509560886934	Marionette	INFO	New connections will no longer be accepted
+1509563409472	geckodriver	INFO	Listening on 127.0.0.1:50460
+1509563411550	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563411726	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563411896	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563413254	Marionette	INFO	Listening on port 50468
+1509563413277	Marionette	INFO	Listening on port 50468
+1509563413609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563414629	Marionette	INFO	New connections will no longer be accepted
+1509563414927	geckodriver	INFO	Listening on 127.0.0.1:50507
+1509563416983	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563417154	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563417313	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563418996	Marionette	INFO	Listening on port 50515
+1509563419061	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563419130	Marionette	INFO	Listening on port 50515
+1509563419900	Marionette	INFO	New connections will no longer be accepted
+1509563420203	geckodriver	INFO	Listening on 127.0.0.1:50549
+1509563422292	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563422565	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563422746	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563424573	Marionette	INFO	Listening on port 50563
+1509563424651	Marionette	INFO	Listening on port 50563
+1509563425441	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563426660	Marionette	INFO	New connections will no longer be accepted
+1509563426930	geckodriver	INFO	Listening on 127.0.0.1:50626
+1509563428969	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563429141	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563429313	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563430887	Marionette	INFO	Listening on port 50638
+1509563430966	Marionette	INFO	Listening on port 50638
+1509563430986	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563431946	Marionette	INFO	New connections will no longer be accepted
+1509563432286	geckodriver	INFO	Listening on 127.0.0.1:50678
+1509563434337	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563434531	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563434702	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563436194	Marionette	INFO	Listening on port 50686
+1509563436203	Marionette	INFO	Listening on port 50686
+1509563436373	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563437503	Marionette	INFO	New connections will no longer be accepted
+1509563918564	geckodriver	INFO	Listening on 127.0.0.1:51417
+1509563920610	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509563920841	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509563921085	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509563923278	Marionette	INFO	Listening on port 51427
+1509563923301	Marionette	INFO	Listening on port 51427
+1509563923735	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509563924572	Marionette	INFO	New connections will no longer be accepted
+1509564009995	geckodriver	INFO	Listening on 127.0.0.1:51579
+1509564012038	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509564012213	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509564012384	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509564014034	Marionette	INFO	Listening on port 51587
+1509564014045	Marionette	INFO	Listening on port 51587
+1509564014060	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509564015243	Marionette	INFO	New connections will no longer be accepted
+1509565926620	geckodriver	INFO	Listening on 127.0.0.1:54261
+1509565928668	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565928864	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565929126	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565930636	Marionette	INFO	Listening on port 54269
+1509565930655	Marionette	INFO	Listening on port 54269
+1509565930716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565931861	Marionette	INFO	New connections will no longer be accepted
+1509565932139	geckodriver	INFO	Listening on 127.0.0.1:54314
+1509565934195	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565934372	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565934551	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565936012	Marionette	INFO	Listening on port 54322
+1509565936023	Marionette	INFO	Listening on port 54322
+1509565936243	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565937474	Marionette	INFO	New connections will no longer be accepted
+1509565937727	geckodriver	INFO	Listening on 127.0.0.1:54378
+1509565939800	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565940003	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565940178	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565941967	Marionette	INFO	Listening on port 54386
+1509565941986	Marionette	INFO	Listening on port 54386
+1509565942957	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565943998	Marionette	INFO	New connections will no longer be accepted
+1509565944282	geckodriver	INFO	Listening on 127.0.0.1:54430
+1509565946351	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565946550	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565946742	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565948437	Marionette	INFO	Listening on port 54438
+1509565948452	Marionette	INFO	Listening on port 54438
+1509565949482	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565950623	Marionette	INFO	New connections will no longer be accepted
+1509565950912	geckodriver	INFO	Listening on 127.0.0.1:54496
+1509565952966	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565953167	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565953381	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565955049	Marionette	INFO	Listening on port 54504
+1509565955064	Marionette	INFO	Listening on port 54504
+1509565956104	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565957222	Marionette	INFO	New connections will no longer be accepted
+1509565957538	geckodriver	INFO	Listening on 127.0.0.1:54546
+1509565959586	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509565959784	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509565959971	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509565961614	Marionette	INFO	Listening on port 54556
+1509565961633	Marionette	INFO	Listening on port 54556
+1509565962715	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509565963529	Marionette	INFO	New connections will no longer be accepted
+1509566534697	geckodriver	INFO	Listening on 127.0.0.1:55374
+1509566536728	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566536925	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566537128	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566538546	Marionette	INFO	Listening on port 55384
+1509566538557	Marionette	INFO	Listening on port 55384
+1509566538813	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566539953	Marionette	INFO	New connections will no longer be accepted
+1509566540464	geckodriver	INFO	Listening on 127.0.0.1:55435
+1509566542502	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566542692	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566542903	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566544515	Marionette	INFO	Listening on port 55444
+1509566544539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566544619	Marionette	INFO	Listening on port 55444
+1509566545669	Marionette	INFO	New connections will no longer be accepted
+1509566545957	geckodriver	INFO	Listening on 127.0.0.1:55502
+1509566548013	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566548213	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566548406	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566550080	Marionette	INFO	Listening on port 55510
+1509566550101	Marionette	INFO	Listening on port 55510
+1509566551135	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566552198	Marionette	INFO	New connections will no longer be accepted
+1509566552501	geckodriver	INFO	Listening on 127.0.0.1:55553
+1509566554551	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566554744	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566554923	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566556505	Marionette	INFO	Listening on port 55561
+1509566556518	Marionette	INFO	Listening on port 55561
+1509566556570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566557683	Marionette	INFO	New connections will no longer be accepted
+1509566558036	geckodriver	INFO	Listening on 127.0.0.1:55618
+1509566560091	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566560288	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566560497	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566562104	Marionette	INFO	Listening on port 55626
+1509566562120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566562182	Marionette	INFO	Listening on port 55626
+1509566563114	Marionette	INFO	New connections will no longer be accepted
+1509566563454	geckodriver	INFO	Listening on 127.0.0.1:55664
+1509566565508	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566565700	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566565877	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566567506	Marionette	INFO	Listening on port 55674
+1509566567528	Marionette	INFO	Listening on port 55674
+1509566567532	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566568315	Marionette	INFO	New connections will no longer be accepted
+1509566627954	geckodriver	INFO	Listening on 127.0.0.1:55786
+1509566630033	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566630234	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566630452	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566632171	Marionette	INFO	Listening on port 55796
+1509566632190	Marionette	INFO	Listening on port 55796
+1509566633156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566634511	Marionette	INFO	New connections will no longer be accepted
+1509566635010	geckodriver	INFO	Listening on 127.0.0.1:55847
+1509566637059	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566637277	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566637475	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566639672	Marionette	INFO	Listening on port 55858
+1509566639702	Marionette	INFO	Listening on port 55858
+1509566640194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566641305	Marionette	INFO	New connections will no longer be accepted
+1509566641652	geckodriver	INFO	Listening on 127.0.0.1:55904
+1509566643715	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566643989	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566644238	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566645863	Marionette	INFO	Listening on port 55919
+1509566645885	Marionette	INFO	Listening on port 55919
+1509566646849	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566647711	Marionette	INFO	New connections will no longer be accepted
+1509566647948	geckodriver	INFO	Listening on 127.0.0.1:55954
+1509566649990	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566650182	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566650391	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566651890	Marionette	INFO	Listening on port 55964
+1509566651904	Marionette	INFO	Listening on port 55964
+1509566652018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566653119	Marionette	INFO	New connections will no longer be accepted
+1509566653480	geckodriver	INFO	Listening on 127.0.0.1:56019
+1509566655551	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566655727	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566655905	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566657383	Marionette	INFO	Listening on port 56029
+1509566657402	Marionette	INFO	Listening on port 56029
+1509566657568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566658550	Marionette	INFO	New connections will no longer be accepted
+1509566659049	geckodriver	INFO	Listening on 127.0.0.1:56068
+1509566661148	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566661482	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566661752	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566663990	Marionette	INFO	Listening on port 56078
+1509566664013	Marionette	INFO	Listening on port 56078
+1509566664275	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566665538	Marionette	INFO	New connections will no longer be accepted
+1509566666037	geckodriver	INFO	Listening on 127.0.0.1:56135
+1509566668086	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566668342	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566668555	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566670577	Marionette	INFO	Listening on port 56146
+1509566670656	Marionette	INFO	Listening on port 56146
+1509566671218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566672597	Marionette	INFO	New connections will no longer be accepted
+1509566673025	geckodriver	INFO	Listening on 127.0.0.1:56200
+1509566675057	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566675360	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566675599	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566677706	Marionette	INFO	Listening on port 56208
+1509566677787	Marionette	INFO	Listening on port 56208
+1509566678194	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566679519	Marionette	INFO	New connections will no longer be accepted
+1509566679934	geckodriver	INFO	Listening on 127.0.0.1:56268
+1509566681982	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566682210	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566682440	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566684550	Marionette	INFO	Listening on port 56276
+1509566684589	Marionette	INFO	Listening on port 56276
+1509566685174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566686311	Marionette	INFO	New connections will no longer be accepted
+1509566686785	geckodriver	INFO	Listening on 127.0.0.1:56320
+1509566688823	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566689046	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566689261	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566691429	Marionette	INFO	Listening on port 56330
+1509566691453	Marionette	INFO	Listening on port 56330
+1509566691955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566693448	Marionette	INFO	New connections will no longer be accepted
+1509566693847	geckodriver	INFO	Listening on 127.0.0.1:56385
+1509566695879	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566696116	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566696367	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566698485	Marionette	INFO	Listening on port 56393
+1509566698565	Marionette	INFO	Listening on port 56393
+1509566699009	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566700144	Marionette	INFO	New connections will no longer be accepted
+1509566700589	geckodriver	INFO	Listening on 127.0.0.1:56436
+1509566702630	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566702867	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566703097	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566705272	Marionette	INFO	Listening on port 56444
+1509566705289	Marionette	INFO	Listening on port 56444
+1509566705755	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566706667	Marionette	INFO	New connections will no longer be accepted
+1509566707496	geckodriver	INFO	Listening on 127.0.0.1:56484
+1509566709555	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566709824	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566710058	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566712180	Marionette	INFO	Listening on port 56494
+1509566712230	Marionette	INFO	Listening on port 56494
+1509566712723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566713570	Marionette	INFO	New connections will no longer be accepted
+1509566713981	geckodriver	INFO	Listening on 127.0.0.1:56526
+1509566716023	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566716273	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566716502	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566718602	Marionette	INFO	Listening on port 56536
+1509566718692	Marionette	INFO	Listening on port 56536
+1509566719160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566720014	Marionette	INFO	New connections will no longer be accepted
+1509566720485	geckodriver	INFO	Listening on 127.0.0.1:56570
+1509566722513	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1509566722773	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:656 < startup()@resource://gre/modules/AddonManager.jsm:816 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file://///%3F/C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1596: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1509566723035	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2465: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 3137: TypeError: AddonManagerInternal._getProviderByName(...) is undefined
+1509566725116	Marionette	INFO	Listening on port 56580
+1509566725193	Marionette	INFO	Listening on port 56580
+1509566725649	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509566726790	Marionette	INFO	New connections will no longer be accepted
+1509567169432	geckodriver	INFO	geckodriver 0.19.1
+1509567169442	geckodriver	INFO	Listening on 127.0.0.1:57265
+1509567171491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.ycE4ev2ta1pk"
+1509567171744	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567172110	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7832] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567173383	Marionette	INFO	Listening on port 57275
+1509567173389	Marionette	INFO	Listening on port 57275
+1509567173557	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567173595	Marionette	DEBUG	loaded listener.js
+1509567173626	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567173921	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567173921	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567173930	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57264/chores/children"
+1509567173951	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57264/chores/children"
+1509567174085	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57264/chores/children"
+1509567174144	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57264/chores/children"
+1509567174144	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57264/chores/children"
+1509567174150	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57264/chores/tasks"
+1509567174154	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57264/chores/tasks"
+1509567174357	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57264/chores/tasks"
+1509567174371	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57264/chores/tasks"
+1509567174372	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57264/chores/tasks"
+1509567174384	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57264/chores/"
+1509567174389	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57264/chores/"
+1509567174566	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57264/chores/"
+1509567174575	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57264/chores/"
+1509567174575	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57264/chores/"
+1509567174583	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57264/chores/children"
+1509567174588	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57264/chores/children"
+1509567174712	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57264/chores/children"
+1509567174723	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57264/chores/children"
+1509567174723	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57264/chores/children"
+1509567174730	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57264/chores/children"
+1509567174735	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57264/chores/children"
+1509567174743	Marionette	INFO	New connections will no longer be accepted
+1509567175275	geckodriver	INFO	geckodriver 0.19.1
+1509567175275	geckodriver	INFO	Listening on 127.0.0.1:57329
+1509567177358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.iDRWPNy7BtCL"
+1509567177610	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567177999	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6536] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1509567179340	Marionette	INFO	Listening on port 57337
+1509567179369	Marionette	INFO	Listening on port 57337
+1509567179413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567179458	Marionette	DEBUG	loaded listener.js
+1509567179486	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567179762	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567179762	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567179771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567179801	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567180107	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children"
+1509567180149	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children"
+1509567180149	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children"
+1509567180154	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/1"
+1509567180159	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/1"
+1509567180332	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children/1"
+1509567180503	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children/1"
+1509567180503	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children/1"
+1509567180510	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/1"
+1509567180516	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/1"
+1509567180530	Marionette	INFO	New connections will no longer be accepted
+1509567180979	geckodriver	INFO	geckodriver 0.19.1
+1509567180993	geckodriver	INFO	Listening on 127.0.0.1:57383
+1509567183061	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.BTgB78xQTDxi"
+1509567183571	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567183980	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 25232] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567185597	Marionette	INFO	Listening on port 57391
+1509567185613	Marionette	INFO	Listening on port 57391
+1509567186192	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567186232	Marionette	DEBUG	loaded listener.js
+1509567186320	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567186593	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567186593	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567186601	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567186623	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567186802	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children"
+1509567187066	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children"
+1509567187066	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children"
+1509567187070	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567187076	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567187088	Marionette	INFO	New connections will no longer be accepted
+1509567187369	geckodriver	INFO	geckodriver 0.19.1
+1509567187374	geckodriver	INFO	Listening on 127.0.0.1:57433
+1509567189440	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.dkeE21VJsHVV"
+1509567189674	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567190082	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 30560] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[Parent 11788] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 27932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 27932] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567191538	Marionette	INFO	Listening on port 57441
+1509567191566	Marionette	INFO	Listening on port 57441
+1509567192570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567192617	Marionette	DEBUG	loaded listener.js
+1509567192655	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567192936	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567192936	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567192942	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567192958	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567193152	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children"
+1509567193195	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children"
+1509567193196	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children"
+1509567193202	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/new"
+1509567193211	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/new"
+1509567194149	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children/10"
+1509567194163	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children/10"
+1509567194164	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children/10"
+1509567194170	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/10"
+1509567194177	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/10"
+1509567194185	Marionette	INFO	New connections will no longer be accepted
+1509567194486	geckodriver	INFO	geckodriver 0.19.1
+1509567194495	geckodriver	INFO	Listening on 127.0.0.1:57507
+1509567196563	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.iXjlSQOVn0Vq"
+1509567196836	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567197243	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 24192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 25060] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 4508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4508] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567198633	Marionette	INFO	Listening on port 57515
+1509567198650	Marionette	INFO	Listening on port 57515
+1509567199689	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567199736	Marionette	DEBUG	loaded listener.js
+1509567199771	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567200055	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567200055	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567200061	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567200073	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567200529	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children"
+1509567200792	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children"
+1509567200792	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children"
+1509567200801	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567200808	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567200814	Marionette	INFO	New connections will no longer be accepted
+1509567201393	geckodriver	INFO	geckodriver 0.19.1
+1509567201403	geckodriver	INFO	Listening on 127.0.0.1:57565
+1509567203453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.jHsXltgPv2kb"
+1509567203694	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567204147	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+[Parent 25892] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567205909	Marionette	INFO	Listening on port 57575
+1509567205935	Marionette	INFO	Listening on port 57575
+1509567206685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567206748	Marionette	DEBUG	loaded listener.js
+1509567206784	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567207078	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567207078	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567207086	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children"
+1509567207107	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children"
+1509567207710	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children"
+1509567207746	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children"
+1509567207746	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children"
+1509567207762	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/edit/14"
+1509567207765	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/edit/14"
+1509567208791	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57328/chores/children/14"
+1509567208814	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57328/chores/children/14"
+1509567208815	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57328/chores/children/14"
+1509567208822	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57328/chores/children/14"
+1509567208826	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57328/chores/children/14"
+1509567208840	Marionette	INFO	New connections will no longer be accepted
+1509567209346	geckodriver	INFO	geckodriver 0.19.1
+1509567209355	geckodriver	INFO	Listening on 127.0.0.1:57643
+1509567211408	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.F2L7wV9nMBsd"
+1509567211739	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567212249	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 27900] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: resource:///modules/ExtensionsUI.jsm, line 50: TypeError: RecentWindow.getMostRecentBrowserWindow(...) is null
+1509567214040	Marionette	INFO	Listening on port 57651
+1509567214042	Marionette	INFO	Listening on port 57651
+1509567214530	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567214578	Marionette	DEBUG	loaded listener.js
+1509567214663	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567214943	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567214943	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567214963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567214994	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567215302	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567215385	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567215385	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567215419	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/new"
+1509567215423	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/new"
+1509567216251	Marionette	INFO	New connections will no longer be accepted
+1509567216575	geckodriver	INFO	geckodriver 0.19.1
+1509567216583	geckodriver	INFO	Listening on 127.0.0.1:57709
+1509567218639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.Zi6OaBK5Gog4"
+1509567218948	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567219462	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8140] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567221259	Marionette	INFO	Listening on port 57719
+1509567221288	Marionette	INFO	Listening on port 57719
+1509567221765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567221832	Marionette	DEBUG	loaded listener.js
+1509567221875	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567222161	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567222162	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567222173	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567222206	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567222396	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567222420	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567222421	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567222429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/new"
+1509567222443	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/new"
+1509567223120	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks/11"
+1509567223136	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks/11"
+1509567223137	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks/11"
+1509567223147	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/11"
+1509567223154	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/11"
+1509567223172	Marionette	INFO	New connections will no longer be accepted
+1509567223524	geckodriver	INFO	geckodriver 0.19.1
+1509567223533	geckodriver	INFO	Listening on 127.0.0.1:57781
+1509567225688	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.WuxEVrZWXJRt"
+1509567226161	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567226674	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 20980] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 30748] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 19608] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 19608] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567228537	Marionette	INFO	Listening on port 57789
+1509567228556	Marionette	INFO	Listening on port 57789
+1509567228826	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567228879	Marionette	DEBUG	loaded listener.js
+1509567228920	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567229194	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567229194	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567229203	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567229220	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567229575	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567229868	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567229868	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567229876	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567229885	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567229908	Marionette	INFO	New connections will no longer be accepted
+1509567230309	geckodriver	INFO	geckodriver 0.19.1
+1509567230318	geckodriver	INFO	Listening on 127.0.0.1:57840
+1509567232386	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.UaZcLDBDBBBM"
+1509567232706	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567233271	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 28192] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567235004	Marionette	INFO	Listening on port 57848
+1509567235006	Marionette	INFO	Listening on port 57848
+1509567235517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567235565	Marionette	DEBUG	loaded listener.js
+1509567235656	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567235957	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567235957	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567235965	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567235983	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567236245	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567236263	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567236264	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567236271	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/edit/21"
+1509567236288	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/edit/21"
+1509567237015	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks/21"
+1509567237029	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks/21"
+1509567237030	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks/21"
+1509567237036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/21"
+1509567237040	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/21"
+1509567237051	Marionette	INFO	New connections will no longer be accepted
+1509567237385	geckodriver	INFO	geckodriver 0.19.1
+1509567237393	geckodriver	INFO	Listening on 127.0.0.1:57910
+1509567239484	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.uXnFezwoWloG"
+1509567239783	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567240296	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 18556] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 28448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28448] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567242040	Marionette	INFO	Listening on port 57920
+1509567242081	Marionette	INFO	Listening on port 57920
+1509567242612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567242655	Marionette	DEBUG	loaded listener.js
+1509567242684	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567242955	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567242956	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567242963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567242979	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567243173	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567243248	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567243249	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567243255	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/26"
+1509567243259	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/26"
+1509567243421	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks/26"
+1509567243688	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks/26"
+1509567243689	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks/26"
+1509567243695	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks/26"
+1509567243706	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks/26"
+1509567243720	Marionette	INFO	New connections will no longer be accepted
+1509567244126	geckodriver	INFO	geckodriver 0.19.1
+1509567244137	geckodriver	INFO	Listening on 127.0.0.1:57966
+1509567246178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.RWnwM24xGJRu"
+1509567246493	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567247021	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 28272] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 22952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 22952] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567248726	Marionette	INFO	Listening on port 57976
+1509567248752	Marionette	INFO	Listening on port 57976
+1509567249310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567249354	Marionette	DEBUG	loaded listener.js
+1509567249383	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567249661	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567249661	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567249672	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567249697	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567249937	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:57642/chores/tasks"
+1509567250219	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:57642/chores/tasks"
+1509567250219	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:57642/chores/tasks"
+1509567250232	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:57642/chores/tasks"
+1509567250234	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:57642/chores/tasks"
+1509567250278	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1509567251038	geckodriver	INFO	geckodriver 0.19.1
+1509567251046	geckodriver	INFO	Listening on 127.0.0.1:58022
+1509567253098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.FxR2c1gbI6y5"
+1509567253404	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567253913	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 28204] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 15484] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 27896] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567255698	Marionette	INFO	Listening on port 58030
+1509567255712	Marionette	INFO	Listening on port 58030
+1509567256232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567256274	Marionette	DEBUG	loaded listener.js
+1509567256331	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567256599	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567256600	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567256607	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children/17"
+1509567256620	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children/17"
+1509567256757	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:58021/chores/children/17"
+1509567257033	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:58021/chores/children/17"
+1509567257033	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:58021/chores/children/17"
+1509567257041	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children/17"
+1509567257047	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children/17"
+1509567257061	Marionette	INFO	New connections will no longer be accepted
+1509567257381	geckodriver	INFO	geckodriver 0.19.1
+1509567257389	geckodriver	INFO	Listening on 127.0.0.1:58070
+1509567259438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.nPWukycsJjTi"
+1509567259737	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567260279	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 22140] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567262007	Marionette	INFO	Listening on port 58078
+1509567262029	Marionette	INFO	Listening on port 58078
+1509567262563	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567262607	Marionette	DEBUG	loaded listener.js
+1509567262640	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567262911	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567262912	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567262937	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children"
+1509567262940	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children"
+1509567263067	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:58021/chores/children"
+1509567263334	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:58021/chores/children"
+1509567263334	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:58021/chores/children"
+1509567263343	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children"
+1509567263350	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children"
+1509567263362	Marionette	INFO	New connections will no longer be accepted
+1509567263785	geckodriver	INFO	geckodriver 0.19.1
+1509567263794	geckodriver	INFO	Listening on 127.0.0.1:58122
+1509567265844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.gtDOtrw1gpuX"
+1509567266168	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509567266675	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 16868] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 23164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23164] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509567268381	Marionette	INFO	Listening on port 58130
+1509567268396	Marionette	INFO	Listening on port 58130
+1509567269008	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509567269054	Marionette	DEBUG	loaded listener.js
+1509567269092	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509567269369	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509567269370	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509567269376	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children/new"
+1509567269394	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children/new"
+1509567269981	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:58021/chores/children/26"
+1509567270120	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:58021/chores/children/26"
+1509567270121	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:58021/chores/children/26"
+1509567270131	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58021/chores/children/26"
+1509567270137	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58021/chores/children/26"
+1509567270149	Marionette	INFO	New connections will no longer be accepted
+1509687308898	geckodriver	INFO	geckodriver 0.19.1
+1509687308907	geckodriver	INFO	Listening on 127.0.0.1:50861
+1509687311007	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.ggI0vseTTyk5"
+1509687311455	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509687311876	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 9968] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509687313006	Marionette	INFO	Listening on port 50869
+1509687313021	Marionette	INFO	Listening on port 50869
+1509687313038	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509687313066	Marionette	DEBUG	loaded listener.js
+1509687313087	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509687313354	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509687313354	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509687313362	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50860/chores/children"
+1509687313379	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50860/chores/children"
+1509687313494	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50860/chores/children"
+1509687313506	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50860/chores/children"
+1509687313507	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50860/chores/children"
+1509687313511	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50860/chores/tasks"
+1509687313515	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50860/chores/tasks"
+1509687313692	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50860/chores/tasks"
+1509687313714	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50860/chores/tasks"
+1509687313715	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50860/chores/tasks"
+1509687313722	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50860/chores/"
+1509687313726	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50860/chores/"
+1509687313881	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50860/chores/"
+1509687313894	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50860/chores/"
+1509687313894	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50860/chores/"
+1509687313899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50860/chores/children"
+1509687313902	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50860/chores/children"
+1509687314023	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50860/chores/children"
+1509687314101	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50860/chores/children"
+1509687314101	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50860/chores/children"
+1509687314107	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50860/chores/children"
+1509687314112	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50860/chores/children"
+1509687314123	Marionette	INFO	New connections will no longer be accepted
+1509687314660	geckodriver	INFO	geckodriver 0.19.1
+1509687314670	geckodriver	INFO	Listening on 127.0.0.1:50917
+1509687316721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.IBP8QhKvfLBq"
+1509687316912	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509687317229	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 4384] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10244] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509687318331	Marionette	INFO	Listening on port 50923
+1509687318358	Marionette	INFO	Listening on port 50923
+1509687318736	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509687318768	Marionette	DEBUG	loaded listener.js
+1509687318798	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509687319067	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509687319067	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509687319075	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50916/chores/children"
+1509687319088	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50916/chores/children"
+1509687319195	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50916/chores/children"
+1509687319206	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50916/chores/children"
+1509687319206	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50916/chores/children"
+1509687319211	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50916/chores/children/1"
+1509687319215	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50916/chores/children/1"
+1509687319374	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:50916/chores/children/1"
+1509687319633	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:50916/chores/children/1"
+1509687319633	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:50916/chores/children/1"
+1509687319637	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:50916/chores/children/1"
+1509687319643	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:50916/chores/children/1"
+1509687319650	Marionette	INFO	New connections will no longer be accepted
+1509687319851	geckodriver	INFO	geckodriver 0.19.1
+1509687319858	geckodriver	INFO	Listening on 127.0.0.1:50963
+1509689698017	geckodriver	INFO	geckodriver 0.19.1
+1509689698023	geckodriver	INFO	Listening on 127.0.0.1:51099
+1509689700098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.0wXjsYL70nza"
+1509689700299	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509689700620	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 15792] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 1124] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1124] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509689701762	Marionette	INFO	Listening on port 51105
+1509689701775	Marionette	INFO	Listening on port 51105
+1509689702123	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509689702169	Marionette	DEBUG	loaded listener.js
+1509689702197	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509689702494	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509689702494	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509689702500	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children/1"
+1509689702506	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children/1"
+1509689702582	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:51098/chores/children/1"
+1509689702849	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:51098/chores/children/1"
+1509689702849	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:51098/chores/children/1"
+1509689702859	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children/1"
+1509689702869	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children/1"
+1509689702886	Marionette	INFO	New connections will no longer be accepted
+1509689703098	geckodriver	INFO	geckodriver 0.19.1
+1509689703103	geckodriver	INFO	Listening on 127.0.0.1:51137
+1509689705183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.gIwHJzBhuTP8"
+1509689705383	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509689705696	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7556] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509689706790	Marionette	INFO	Listening on port 51144
+1509689706813	Marionette	INFO	Listening on port 51144
+1509689707200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509689707245	Marionette	DEBUG	loaded listener.js
+1509689707274	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509689707541	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509689707541	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509689707548	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children"
+1509689707565	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children"
+1509689707650	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:51098/chores/children"
+1509689707911	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:51098/chores/children"
+1509689707911	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:51098/chores/children"
+1509689707916	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children"
+1509689707921	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children"
+1509689707924	Marionette	INFO	New connections will no longer be accepted
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 584] WARNING: pipe error: 232: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 513
+1509689708138	geckodriver	INFO	geckodriver 0.19.1
+1509689708144	geckodriver	INFO	Listening on 127.0.0.1:51178
+1509689710212	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.v4PRv8fwtdAY"
+1509689710404	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509689710714	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 12300] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509689711835	Marionette	INFO	Listening on port 51184
+1509689711847	Marionette	INFO	Listening on port 51184
+1509689712229	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509689712275	Marionette	DEBUG	loaded listener.js
+1509689712298	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509689712568	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509689712568	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509689712575	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children/new"
+1509689712595	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children/new"
+1509689712853	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:51098/chores/children/10"
+1509689713113	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:51098/chores/children/10"
+1509689713113	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:51098/chores/children/10"
+1509689713119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51098/chores/children/10"
+1509689713123	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51098/chores/children/10"
+1509689713131	Marionette	INFO	New connections will no longer be accepted
+1509690004591	geckodriver	INFO	geckodriver 0.19.1
+1509690004597	geckodriver	INFO	Listening on 127.0.0.1:51233
+1509690006668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\rhuan\\AppData\\Local\\Temp\\rust_mozprofile.XgTLMQ77ZOE6"
+1509690006864	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1596"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1596 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1631 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3152 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2246 < callProvider()@resource://gre/modules/AddonManager.jsm:271 < _startProvider()@resource://gre/modules/AddonManager.jsm:741 < startup()@resource://gre/modules/AddonManager.jsm:908 < startup()@resource://gre/modules/AddonManager.jsm:3122 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1509690007178	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 2088] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\rhuan\AppData\Local\openvr\openvrpaths.vrpath
+[Child 15128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15128] WARNING: pipe error: 109: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1509690008284	Marionette	INFO	Listening on port 51239
+1509690008305	Marionette	INFO	Listening on port 51239
+1509690008713	Marionette	WARN	TLS certificate errors will be ignored for this session
+1509690008769	Marionette	DEBUG	loaded listener.js
+1509690008793	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1509690009107	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1509690009107	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1509690009113	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51232/chores/children"
+1509690009125	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51232/chores/children"
+1509690009270	Marionette	DEBUG	Received DOM event "beforeunload" for "http://localhost:51232/chores/children"
+1509690009549	Marionette	DEBUG	Received DOM event "pagehide" for "http://localhost:51232/chores/children"
+1509690009549	Marionette	DEBUG	Received DOM event "unload" for "http://localhost:51232/chores/children"
+1509690009567	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:51232/chores/children"
+1509690009577	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:51232/chores/children"
+1509690009590	Marionette	INFO	New connections will no longer be accepted

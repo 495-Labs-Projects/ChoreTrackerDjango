@@ -4,41 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import chores.tests.pages.base_pages as base
 
-class TaskListPage(base.ListPage):
-    def __init__(self, driver):
-        super().__init__(driver)
-        self.page_element = (By.ID, "task-list")
-        self.list = (By.ID, "task-list")
-        self.new = (By.ID, "task-new")
-        self.detail = (By.CLASS_NAME, "task-detail")
-        self.edit = (By.CLASS_NAME, "task-edit")
-        self.delete = (By.CLASS_NAME, "task-delete")
-
-    def goto_task_detail(self, list_item):
-        self.get_item_detail(list_item).click()
-        detail_page = TaskDetailPage(self.driver)
-        detail_page.check_page_element()
-        return detail_page
-
-    def goto_task_edit(self, list_item):
-        self.get_item_edit(list_item).click()
-        edit_page = TaskFormPage(self.driver)
-        edit_page.check_page_element()
-        return edit_page
-
-    def delete_task(self, list_item):
-        self.get_item_delete(list_item).click()
-        alert = self.driver.switch_to_alert()
-        alert.accept()
-        list_page = TaskListPage(self.driver)
-        list_page.check_page_element()
-        return list_page
-
-    def goto_task_new(self):
-        self.get_new().click()
-        new_page = TaskFormPage(self.driver)
-        new_page.check_page_element()
-        return new_page
 
 class TaskDetailPage(base.DetailPage):
     def __init__(self, driver):
@@ -46,6 +11,7 @@ class TaskDetailPage(base.DetailPage):
         self.page_element = (By.ID, "task-name")
         self.heading = (By.ID, "task-name")
         self.details = (By.ID, "task-details")
+
 
 class TaskFormPage(base.FormPage):
     def __init__(self, driver):
@@ -94,14 +60,26 @@ class TaskFormPage(base.FormPage):
         if(active):
             self.set_active_input(active)
 
-    def submit_form(self):
-        self.get_form().submit()
-        detail_page = TaskDetailPage(self.driver)
-        detail_page.check_page_element()
-        return detail_page
 
-    def submit_bad_form(self):
-        self.get_form().submit()
-        form_page = TaskFormPage(self.driver)
-        form_page.check_page_element()
-        return form_page
+class TaskListPage(base.ListPage):
+    def __init__(self, driver):
+        super().__init__(driver)
+        self.page_element = (By.ID, "task-list")
+        self.list = (By.ID, "task-list")
+        self.new = (By.ID, "task-new")
+        self.detail = (By.CLASS_NAME, "task-detail")
+        self.edit = (By.CLASS_NAME, "task-edit")
+        self.delete = (By.CLASS_NAME, "task-delete")
+
+    def goto_task_detail(self, list_item, page_class=TaskDetailPage):
+        return self.goto_page(self.get_item_detail(list_item), page_class)
+
+    def goto_task_edit(self, list_item, page_class=TaskFormPage):
+        return self.goto_page(self.get_item_edit(list_item), page_class)
+
+    def delete_task(self, list_item):
+        return self.delete_list_item(list_item, TaskListPage)
+
+    def goto_task_new(self, page_class=TaskFormPage):
+        return self.goto_page(self.get_new(), page_class)
+
