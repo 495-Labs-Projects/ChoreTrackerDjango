@@ -56,7 +56,7 @@ class TediousChildFunctionalTests(FactoryFunctionalTestCase):
         last_name_input = self.driver.find_element_by_id("id_last_name")
         last_name_input.send_keys("Smith")
 
-        first_name_input.submit()
+        self.driver.find_element_by_tag_name("form").submit()
 
         self.wait_page_load((By.ID, "child-name"))
 
