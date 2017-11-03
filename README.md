@@ -198,6 +198,8 @@ Show a TA that you have completed writing all the child page tests using the pag
 15. There are also 2 hidden bugs that we want you to find out during your tests! Fix these bugs and make sure all your tests pass!
 
 (Hint 1: You should probably test out the basic page links like maybe if the navbar links lead you to the right pages?)
+
 (Hint 2: You should so make sure that all page headings are right for each page.)
+
 (Hint 3: If hint 2 didn't help, take a closer look at the edit page for tasks and see if there is anything wrong.)
 
