@@ -4,6 +4,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 import chores.tests.pages.base_pages as base
 
+
 class ChoreListPage(base.ListPage):
   def __init__(self, driver):
     super().__init__(driver)
@@ -17,6 +18,7 @@ class ChoreListPage(base.ListPage):
 
 class ChoreDetailPage(base.DetailPage):
   pass
+
 
 class ChoreFormPage(base.FormPage):
   pass

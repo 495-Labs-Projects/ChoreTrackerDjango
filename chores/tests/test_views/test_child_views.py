@@ -20,6 +20,7 @@ class ChildViewTests(FactoryTestCase):
         self.assertContains(response, "No children are available.")
         self.assertQuerysetEqual(response.context['children'], [])
 
+    # Not really necessary since we are partially testing alphabetical here, but just to be safe
     def test_list_view_with_children(self):
         response = self.client.get(reverse('chores:child_list'))
         self.assertEqual(response.status_code, 200)

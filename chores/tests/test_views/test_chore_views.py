@@ -7,7 +7,6 @@ from chores.forms import *
 from chores.views import *
 from chores.tests.test_models import FactoryTestCase
 
-
 class ChoreViewTests(FactoryTestCase):
 
     def setUp(self):
@@ -21,6 +20,7 @@ class ChoreViewTests(FactoryTestCase):
         self.assertContains(response, "No chores are available.")
         self.assertQuerysetEqual(response.context['chores'], [])
 
+    # Not really necessary since we are partially testing chronological here, but just to be safe
     def test_list_view_with_chores(self):
         response = self.client.get(reverse('chores:chore_list'))
         self.assertEqual(response.status_code, 200)
