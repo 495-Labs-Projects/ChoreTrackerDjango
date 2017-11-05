@@ -140,8 +140,8 @@ Now, we'll write some tests for our views. First, within our `chores/tests/` dir
 ```python
     class ChoreViewTests(FactoryTestCase):
     
-    def setUp(self):
-        self.factories.populate_chores()
+        def setUp(self):
+            self.factories.populate_chores()
 ```
 
 3. Let's first test that our list view is working as expected, with the correct information set in the variables we pass to our templates. Add the following code to the test class:
@@ -195,11 +195,11 @@ Now, we'll write some tests for our views. First, within our `chores/tests/` dir
 6. Add the following code to test that our edit form is rendered correctly:
 
 ```python
-def test_edit_chore_view(self):
-    response = self.client.get(reverse('chores:chore_edit', args=(self.factories.ac1.id,)))
-    self.assertEqual(response.status_code, 200)
-    self.assertIsInstance(response.context['form'], ChoreForm)
-    self.assertContains(response, "Update Chore")
+    def test_edit_chore_view(self):
+        response = self.client.get(reverse('chores:chore_edit', args=(self.factories.ac1.id,)))
+        self.assertEqual(response.status_code, 200)
+        self.assertIsInstance(response.context['form'], ChoreForm)
+        self.assertContains(response, "Update Chore")
 ```
 
 7. Add the following code to test that updating an object with valid values sees those changes are made in the database, and otherwise the object remains unchanged:
