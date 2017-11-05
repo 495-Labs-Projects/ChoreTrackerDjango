@@ -1,13 +1,8 @@
-from django.test import TestCase
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
 from chores.models import *
 from chores.tests.utilities import *
-
-
-class FactoryTestCase(TestCase):
-	factories = Populate()
 
 
 class ChoreTests(FactoryTestCase):

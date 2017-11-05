@@ -1,12 +1,9 @@
-from django.test import TestCase
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
 from chores.models import *
 from chores.tests.utilities import *
 
-class FactoryTestCase(TestCase):
-	factories = Populate()
 
 class ChildTests(FactoryTestCase):
 
@@ -14,11 +11,13 @@ class ChildTests(FactoryTestCase):
 		self.factories.populate_chores()
 
 	def test_validations(self):
-		bad_child1 = ChildFactory.create(first_name="")
-		self.assertRaises(ValidationError, bad_child1.full_clean)
+		with self.assertRaises(ValidationError):
+			bad_child1 = ChildFactory.create(first_name="")
+			bad_child1.full_clean()
 
-		bad_child2 = ChildFactory.create(last_name="")
-		self.assertRaises(ValidationError, bad_child2.full_clean)
+		with self.assertRaises(ValidationError):
+			bad_child1 = ChildFactory.create(last_name="")
+			bad_child1.full_clean()
 
 	def test_name(self):
 		self.assertEqual("Alex Heimann", self.factories.alex.name())

@@ -11,6 +11,8 @@ from chores.tests.pages.child_pages import *
 from chores.tests.pages.task_pages import *
 from chores.tests.pages.chore_pages import *
 
+driverType = "geckodriver"
+
 class FactoryFunctionalTestCase(StaticLiveServerTestCase):
     factories = Populate()
 
@@ -23,10 +25,11 @@ class FactoryFunctionalTestCase(StaticLiveServerTestCase):
         wait = WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located(el)
             )
+        
 
 class BaseFunctionalTests(FactoryFunctionalTestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/"+driverType)
         self.driver.implicitly_wait(3)
         self.driver.get(self.get_full_url(reverse("chores:child_list")))
         self.child_list_page = ChildListPage(self.driver) 

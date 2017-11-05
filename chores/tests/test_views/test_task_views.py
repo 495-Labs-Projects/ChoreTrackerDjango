@@ -1,11 +1,12 @@
-from django.test import TestCase, RequestFactory
+from django.test import RequestFactory
 from django.urls import reverse
 from django.utils import timezone
 
 from chores.models import *
 from chores.forms import *
 from chores.views import *
-from chores.tests.test_models import FactoryTestCase
+from chores.tests.utilities import *
+
 
 class TaskViewTests(FactoryTestCase):
 

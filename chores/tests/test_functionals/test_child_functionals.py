@@ -9,11 +9,12 @@ from chores.tests.test_functionals.test_base_functionals import FactoryFunctiona
 from chores.tests.utilities import *
 from chores.tests.pages.child_pages import *
 
+driverType = "geckodriver"
 
 # Tedious Way
 class TediousChildFunctionalTests(FactoryFunctionalTestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/"+driverType)
         self.driver.implicitly_wait(3)
         self.factories.populate_children()
 
@@ -66,7 +67,7 @@ class TediousChildFunctionalTests(FactoryFunctionalTestCase):
 
 class ChildFunctionalTests(FactoryFunctionalTestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/"+driverType)
         self.driver.implicitly_wait(3)
         self.factories.populate_children()
         self.driver.get(self.get_full_url(reverse("chores:child_list")))
@@ -110,3 +111,4 @@ class ChildFunctionalTests(FactoryFunctionalTestCase):
         child_list_page = self.child_list_page.delete_child(children[0])
         new_children = child_list_page.get_list_elements()
         self.assertEqual(len(new_children), children_length - 1)
+        

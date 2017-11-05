@@ -1,13 +1,8 @@
-from django.test import TestCase
 from django.core.exceptions import ValidationError
 from django.utils import timezone
 
 from chores.models import *
 from chores.tests.utilities import *
-
-
-class FactoryTestCase(TestCase):
-	factories = Populate()
 
 
 class TaskTests(FactoryTestCase):
@@ -16,8 +11,14 @@ class TaskTests(FactoryTestCase):
 		self.factories.populate_tasks()
 
 	def test_validate_name(self):
-		bad_task1 = TaskFactory.create(name="")
-		self.assertRaises(ValidationError, bad_task1.full_clean)
+		with self.assertRaises(ValidationError):
+				bad_task = TaskFactory.create(name="")
+				bad_task.full_clean()
+
+	# def test_validate_points(self):
+	# 	with self.assertRaises(ValidationError):
+	# 			bad_task = TaskFactory.create(points=-1)
+	# 			bad_task.full_clean()
 
 	def test_alphabetical(self):
 		self.assertEqual(list(map(lambda task: task.name, Task.objects.alphabetical())), ["Mow grass", "Shovel driveway", "Stack wood", "Sweep floor", "Wash dishes"])

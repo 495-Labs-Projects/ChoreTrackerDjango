@@ -9,9 +9,11 @@ from chores.tests.test_functionals.test_base_functionals import FactoryFunctiona
 from chores.tests.utilities import *
 from chores.tests.pages.task_pages import *
 
+driverType = "geckodriver"
+
 class TaskFunctionalTests(FactoryFunctionalTestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/geckodriver.exe")
+        self.driver = webdriver.Firefox(executable_path="chores/tests/drivers/"+driverType)
         self.driver.implicitly_wait(3)
         self.factories.populate_tasks()
         self.driver.get(self.get_full_url(reverse("chores:task_list")))
