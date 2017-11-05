@@ -67,7 +67,7 @@ We will start by writing unit tests for our three models. Factories have been pr
 
 ```
 
-And that's it - we're done unit testing the Child model. Now onto the Chore model...
+And that's it - we're done unit testing the Child model. For brevity, we'll leave testing the Task model to you as an additional exercise (your app should still be 100% tested!), and we'll move on to the Chore model.
 
 1. In `test_chore_model.py`, make the same imports as you did for Child at the top of the file.
 
@@ -115,7 +115,7 @@ And that's it - we're done unit testing the Child model. Now onto the Chore mode
 
 ```
 
-And that's it for the Chore model unit testing! For brevity, we will leave the Task model up to you to complete on your own.
+And that's it! Make sure all your tests are passing and that all of your business logic is accounted for.
 
 # Part 2 - View Tests
 
