@@ -5,6 +5,115 @@ In this lab we will be working with the ChoreTracker Django application and full
   - Functional tests (uses selenium to interact with the actual application)
 
 # Part 1 - Model/Unit Tests
+We will start by writing unit tests for our three models. Factories have been provided in `chores/tests/factories.py` and contexts for our tests have been created in `utilities.py`. Within our `chores/tests/` directory, add a subdirectory named `test_models`. Here, first add a `__init__.py` file, and then add our three unit test files: `child_test_models.py`, `task_test_models.py`, and `chore_test_models.py`.
+
+1. We'll start by writing our unit tests for the child model. First, add the imports we'll need at the top of the file:
+
+```python
+    from django.core.exceptions import ValidationError
+    from django.utils import timezone
+
+    from chores.models import *
+    from chores.tests.utilities import *
+    ```
+2. Let's first build the child test class and our initial setup method that makes use of our factories and contexts:
+
+```python
+    class ChildTests(FactoryTestCase):
+
+        def setUp(self):
+            self.factories.populate_chores()
+
+    ```
+
+3. First, we'll test the built-in validations that ensure blank values aren't accepted for first and last names. By default, Django fields don't accept blank values, so we should see these tests pass. Add the following code to the test class:
+
+```python
+    def test_validations(self):
+        with self.assertRaises(ValidationError):
+            bad_child1 = ChildFactory.create(first_name="")
+            bad_child1.full_clean()
+
+        with self.assertRaises(ValidationError):
+            bad_child1 = ChildFactory.create(last_name="")
+            bad_child1.full_clean()
+
+```
+
+4. Next, we'll test the `name` and `points_earned` methods by adding the following code to the test calss:
+
+```python
+    def test_name(self):
+        self.assertEqual("Alex Heimann", self.factories.alex.name())
+        self.assertEqual("Mark Heimann", self.factories.mark.name())
+        self.assertEqual("Rachel Heimann", self.factories.rachel.name())
+
+    def test_points_earned(self):
+        self.assertEqual(4, self.factories.alex.points_earned())
+        self.assertEqual(1, self.factories.mark.points_earned())
+        self.assertEqual(0, self.factories.rachel.points_earned())
+
+```
+
+5. Finally, we'll test our two scopes, `alphabetical` and `active`:
+
+```python
+    def test_alphabetical(self):
+        self.assertEqual(list(map(lambda child: child.first_name, Child.objects.alphabetical())), ["Alex", "Mark", "Rachel"])
+
+    def test_active(self):
+        self.assertEqual(list(map(lambda child: child.first_name, Child.objects.active().alphabetical())), ["Alex", "Mark"])
+
+```
+
+And that's it - we're done unit testing the Child model. Now onto the Chore model...
+
+1. In `test_chore_model.py`, make the same imports as you did for Child at the top of the file.
+
+2. Start again by building our test class and the initial setup method:
+    
+```python
+    class ChoreTests(FactoryTestCase):
+
+    def setUp(self):
+        self.factories.populate_chores()
+
+    ```
+
+3. We have a series of scopes to test for this model. Look through the following code to make sure you understand what is being tested, and add it to our test class:
+
+```python
+    def test_by_task(self):
+        self.assertEqual(list(map(lambda chore: chore.task.name, Chore.objects.by_task())), ["Shovel driveway","Sweep floor","Sweep floor","Sweep floor", "Wash dishes","Wash dishes","Wash dishes"])
+
+    def test_chronological(self):
+        self.assertEqual(list(map(lambda chore: chore.task.name, Chore.objects.chronological())), ["Shovel driveway","Sweep floor","Wash dishes","Sweep floor","Wash dishes","Sweep floor","Wash dishes"])
+
+    def test_pending(self):
+        self.assertEqual(4, len(Chore.objects.pending()))
+
+    def test_done(self):
+        self.assertEqual(3, len(Chore.objects.done()))
+
+    def test_upcoming(self):
+        self.assertEqual(6, len(Chore.objects.upcoming()))
+
+    def test_past(self):
+        self.assertEqual(1, len(Chore.objects.past()))
+
+    ```
+4. Finally, add a couple of tests for the `status` method:
+
+```python
+    def test_status_completed(self):
+        self.assertEqual("Completed", self.factories.ac3.status())
+
+    def test_status_pending(self):
+        self.assertEqual("Pending", self.factories.mc1.status())
+
+    ```
+
+And that's it for the Chore model unit testing! For brevity, we will leave the Task model up to you to complete on your own.
 
 # Part 2 - View Tests
 
