@@ -15,7 +15,8 @@ We will start by writing unit tests for our three models. Factories have been pr
 
     from chores.models import *
     from chores.tests.utilities import *
-    ```
+```
+
 2. Let's first build the child test class and our initial setup method that makes use of our factories and contexts:
 
 ```python
@@ -24,7 +25,7 @@ We will start by writing unit tests for our three models. Factories have been pr
         def setUp(self):
             self.factories.populate_chores()
 
-    ```
+```
 
 3. First, we'll test the built-in validations that ensure blank values aren't accepted for first and last names. By default, Django fields don't accept blank values, so we should see these tests pass. Add the following code to the test class:
 
@@ -78,7 +79,7 @@ And that's it - we're done unit testing the Child model. Now onto the Chore mode
     def setUp(self):
         self.factories.populate_chores()
 
-    ```
+```
 
 3. We have a series of scopes to test for this model. Look through the following code to make sure you understand what is being tested, and add it to our test class:
 
@@ -101,7 +102,8 @@ And that's it - we're done unit testing the Child model. Now onto the Chore mode
     def test_past(self):
         self.assertEqual(1, len(Chore.objects.past()))
 
-    ```
+```
+
 4. Finally, add a couple of tests for the `status` method:
 
 ```python
@@ -111,7 +113,7 @@ And that's it - we're done unit testing the Child model. Now onto the Chore mode
     def test_status_pending(self):
         self.assertEqual("Pending", self.factories.mc1.status())
 
-    ```
+```
 
 And that's it for the Chore model unit testing! For brevity, we will leave the Task model up to you to complete on your own.
 
