@@ -104,7 +104,7 @@ And that's it - we're done unit testing the Child model. For brevity, we'll leav
 
 ```
 
-4. Finally, add a couple of tests for the `status` method:
+4. Finally, add a couple of tests for the `status` method (alternatively, we could cover this in a single test method with more than one assertion, but for more complicated model methods you might separate this out):
 
 ```python
     def test_status_completed(self):
@@ -118,6 +118,120 @@ And that's it - we're done unit testing the Child model. For brevity, we'll leav
 And that's it! Make sure all your tests are passing and that all of your business logic is accounted for.
 
 # Part 2 - View Tests
+
+Now, we'll write some tests for our views. First, within our `chores/tests/` directory, add a subdirectory named `test_views`. Here, first add a `__init__.py` file, and then add our three view test files: `test_chore_views.py`, `test_child_views.py`, and `test_task_views.py`.
+
+1. We will start with the Chore view tests. Start by importing the following code at the top of `test_chore_views.py`:
+
+```python
+    from django.test import RequestFactory
+    from django.urls import reverse
+    from django.utils import timezone
+
+    from chores.models import *
+    from chores.forms import *
+    from chores.views import *
+    from chores.tests.utilities import *
+
+```
+
+2. Add a test class and our initial setup method:
+
+```python
+    class ChoreViewTests(FactoryTestCase):
+    
+    def setUp(self):
+        self.factories.populate_chores()
+```
+
+3. Let's first test that our list view is working as expected, with the correct information set in the variables we pass to our templates. Add the following code to the test class:
+
+```python
+    def test_list_view_with_no_chores(self):
+        Chore.objects.all().delete()
+
+        response = self.client.get(reverse('chores:chore_list'))
+        self.assertEqual(response.status_code, 200)
+        self.assertContains(response, "No chores are available.")
+        self.assertQuerysetEqual(response.context['chores'], [])
+
+    # Not really necessary since we are partially testing chronological here, but just to be safe
+    def test_list_view_with_chores(self):
+        response = self.client.get(reverse('chores:chore_list'))
+        self.assertEqual(response.status_code, 200)
+        self.assertQuerysetEqual(list(response.context['chores']), 
+            [repr(self.factories.ac3),repr(self.factories.mc3),repr(self.factories.ac4),repr(self.factories.mc1),repr(self.factories.ac1),repr(self.factories.ac2),repr(self.factories.mc2)])
+```
+
+4. We want to make sure our form for chores is rendering correctly. Add the following code to the test class:
+
+```python
+    def test_new_chore_view(self):
+        response = self.client.get(reverse('chores:chore_new'))
+        self.assertEqual(response.status_code, 200)
+        self.assertIsInstance(response.context['form'], ChoreForm)
+        self.assertContains(response, "Create Chore")
+```
+
+5. We also want to test that when a valid chore is created, it is saved in the database and increments our total chores by one. Similarly, if we attempt to create an invalid chore, it is not saved to the database and the object count remains the same:
+
+```python
+    def test_create_chore_view(self):
+        num_chores = Chore.objects.count()
+        response = self.client.post(reverse('chores:chore_new'),
+            {'child': self.factories.alex.id, 'task': self.factories.shovel.id, 'due_on': timezone.now().date() + timezone.timedelta(days=3), 'completed': False}) 
+        self.assertEqual(Chore.objects.count(), num_chores + 1)
+        self.assertRedirects(response, reverse('chores:chore_detail', args=(num_chores+1,)))
+
+    def test_create_bad_chore_view(self):
+        num_chores = Chore.objects.count()
+        response = self.client.post(reverse('chores:chore_new'),
+            {'child': self.factories.alex.id, 'task': 500, 'due_on': timezone.now() + timezone.timedelta(days=3), 'completed': False}) 
+        self.assertEqual(Chore.objects.count(), num_chores)
+        self.assertEqual(response.status_code, 200)
+        self.assertIsInstance(response.context['form'], ChoreForm)
+```
+
+6. Add the following code to test that our edit form is rendered correctly:
+
+```python
+def test_edit_chore_view(self):
+    response = self.client.get(reverse('chores:chore_edit', args=(self.factories.ac1.id,)))
+    self.assertEqual(response.status_code, 200)
+    self.assertIsInstance(response.context['form'], ChoreForm)
+    self.assertContains(response, "Update Chore")
+```
+
+7. Add the following code to test that updating an object with valid values sees those changes are made in the database, and otherwise the object remains unchanged:
+
+```python
+    def test_update_chore_view(self):
+        response = self.client.post(reverse('chores:chore_edit', args=(self.factories.ac1.id,)),
+            {'child': self.factories.alex.id, 'task': self.factories.dishes.id, 'due_on': timezone.now().date() + timezone.timedelta(days=3), 'completed': False})
+        self.factories.ac1.refresh_from_db()
+        self.assertEqual(self.factories.ac1.due_on, timezone.now().date() + timezone.timedelta(days=3))
+        self.assertRedirects(response, reverse('chores:chore_detail', args=(self.factories.ac1.id,)))
+
+    def test_update_bad_chore_view(self):
+        response = self.client.post(reverse('chores:chore_edit', args=(self.factories.ac1.id,)),
+            {'child': self.factories.alex.id, 'task': 500, 'due_on': timezone.now() + timezone.timedelta(days=3), 'completed': False})
+        self.factories.ac1.refresh_from_db()
+        self.assertEqual(self.factories.ac1.due_on, timezone.now().date() + timezone.timedelta(days=1))
+        self.assertEqual(response.status_code, 200)
+        self.assertIsInstance(response.context['form'], ChoreForm)
+```
+
+8. Finally, test that deleting a chore works as expected and our total chore count is decremented by one after deleting it in the database:
+
+```python
+    def test_delete_chore_view(self):
+        num_chores = Chore.objects.count()
+        response = self.client.post(reverse('chores:chore_delete', args=(self.factories.ac1.id,)))
+        self.assertEqual(Chore.objects.count(), num_chores - 1)
+        self.assertRedirects(response, reverse('chores:chore_list'))
+```
+
+And that's it for testing Chore views! This can get pretty repetitive, so we'll leave testing the Child and Task views up to you as an additional exercise. 
 
 # Part 3 - Functional test
 We will actually be using this framework called Selenium to help with functional tests. Usually we will need to pip install it, but we already have included it in the started code as part of the requirements. To learn more about the framework check this out (especially since you will be needing their documentation to write these tests): http://selenium-python.readthedocs.io/

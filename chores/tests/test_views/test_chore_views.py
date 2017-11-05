@@ -75,3 +75,4 @@ class ChoreViewTests(FactoryTestCase):
         response = self.client.post(reverse('chores:chore_delete', args=(self.factories.ac1.id,)))
         self.assertEqual(Chore.objects.count(), num_chores - 1)
         self.assertRedirects(response, reverse('chores:chore_list'))
+        
