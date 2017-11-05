@@ -5,9 +5,9 @@ In this lab we will be working with the ChoreTracker Django application and full
   - Functional tests (uses selenium to interact with the actual application)
 
 # Part 1 - Model/Unit Tests
-We will start by writing unit tests for our three models. Factories have been provided in `chores/tests/factories.py` and contexts for our tests have been created in `utilities.py`. Within our `chores/tests/` directory, add a subdirectory named `test_models`. Here, first add a `__init__.py` file, and then add our three unit test files: `test_child_models.py`, `test_chore_models.py`, and `test_task_models.py`.
+We will start by writing unit tests for our three models. Factories have been provided in `chores/tests/factories.py` and contexts for our tests have been created in `utilities.py`. Within our `chores/tests/` directory, add a subdirectory named `test_models`. Here, first add a `__init__.py` file, and then add our three unit test files: `test_child_model.py`, `test_chore_model.py`, and `test_task_model.py`.
 
-1. We'll start by writing our unit tests for the child model. First, add the imports we'll need at the top of the file:
+1. We'll start by writing our Child unit tests. Start by importing the following code at the top of `test_child_model.py`:
 
 ```python
     from django.core.exceptions import ValidationError
