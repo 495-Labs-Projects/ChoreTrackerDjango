@@ -54,7 +54,6 @@ class TaskUpdate(View):
         task = get_object_or_404(Task, pk=pk)
         form = TaskForm(instance=task)
         context = {
-            'task': task,
             'form': form
         }
         return render(request, template, context)
@@ -69,7 +68,6 @@ class TaskUpdate(View):
         else:
             template = 'tasks/task_form.html'
             context = {
-                'task': task,
             	'form': form
             }
             return render(request, template, context)
