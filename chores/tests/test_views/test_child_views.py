@@ -1,14 +1,15 @@
-from django.test import TestCase, RequestFactory
+from django.test import RequestFactory
 from django.urls import reverse
 from django.utils import timezone
 
 from chores.models import *
 from chores.forms import *
 from chores.views import *
-from chores.tests.test_models import FactoryTestCase
+from chores.tests.utilities import *
+
 
 class ChildViewTests(FactoryTestCase):
-
+    
     def setUp(self):
         self.factories.populate_children()
 
@@ -20,6 +21,7 @@ class ChildViewTests(FactoryTestCase):
         self.assertContains(response, "No children are available.")
         self.assertQuerysetEqual(response.context['children'], [])
 
+    # Not really necessary since we are partially testing alphabetical here, but just to be safe
     def test_list_view_with_children(self):
         response = self.client.get(reverse('chores:child_list'))
         self.assertEqual(response.status_code, 200)
