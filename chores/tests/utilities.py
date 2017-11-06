@@ -1,5 +1,6 @@
 from chores.tests.factories import *
 from django.utils import timezone
+from django.test import TestCase
 
 class Populate():
 
@@ -26,3 +27,7 @@ class Populate():
     self.ac3 = ChoreFactory.create(child=self.alex, task=self.shovel, due_on=timezone.now() - timezone.timedelta(days=2), completed=True)
     self.ac4 = ChoreFactory.create(child=self.alex, task=self.dishes, due_on=timezone.now(), completed=True)
     self.mc3 = ChoreFactory.create(child=self.mark, task=self.sweep, due_on=timezone.now(), completed=True)
+
+
+class FactoryTestCase(TestCase):
+    factories = Populate()

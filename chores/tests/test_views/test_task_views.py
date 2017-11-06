@@ -1,11 +1,11 @@
-from django.test import TestCase, RequestFactory
+from django.test import RequestFactory
 from django.urls import reverse
 from django.utils import timezone
 
 from chores.models import *
 from chores.forms import *
 from chores.views import *
-from chores.tests.test_models import FactoryTestCase
+from chores.tests.utilities import *
 
 
 class TaskViewTests(FactoryTestCase):
@@ -21,6 +21,7 @@ class TaskViewTests(FactoryTestCase):
         self.assertContains(response, "No tasks are available.")
         self.assertQuerysetEqual(response.context['tasks'], [])
 
+    # Not really necessary since we are partially testing alphabetical here, but just to be safe
     def test_list_view_with_tasks(self):
         response = self.client.get(reverse('chores:task_list'))
         self.assertEqual(response.status_code, 200)
